@@ -1,29 +1,47 @@
 .card{
-    background-color:#ffe4e1;
+    background-color:#ffe4e1;;
    
     margin: 20px;
     display: flex;
     justify-content: flex-start;
     flex-direction: column;
     align-items: flex-start;
-    padding: 1px;
     
+    height: 970px;
     width: 300px;
-    height: 100vw;
+   
 }
 .caixa{
-    background-color: rgb(171, 207, 221);
+    background-color: #c9e5ee;
     margin: 10px;
-    border-left-color: blue ;
+    border-left-color: rgb(52, 122, 245) ;
     border-left-style: solid ;
     border-left-width: 5px;
+    margin-top: 1px;
+    margin-left: 20px;
+    margin-right: 20px;
+   margin-bottom: 2px;
+    
 }
-.cardTitle{
-    margin-top: 10px;
-    display: flex;
-}
+
 
 p{
     margin: 10px;
+    
    
 }
+.title,.subtitle{
+    padding-left: 20px;
+    margin: 0px;
+    
+    
+    }
+    .subtitle{
+        color: #abafaf;
+    }
+    .texto{
+        color: #7a7a7a;
+    }
+    .title{
+        margin-left: 21px;
+    }  
