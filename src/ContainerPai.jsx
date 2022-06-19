@@ -1,5 +1,6 @@
 import './Perfil.css'
 import Title from "./Title"
+import Button from './Button';
 function ContainerPai({nome}){
     return(
         <div className='card'>
@@ -40,7 +41,7 @@ function ContainerPai({nome}){
                 IFRO vem a público"</p>
                 
             </div>
-            
+                <Button />
         </div>    
     )
 }
